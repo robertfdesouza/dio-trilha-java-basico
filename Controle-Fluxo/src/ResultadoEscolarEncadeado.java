@@ -1,15 +1,17 @@
 public class ResultadoEscolarEncadeado {
     // Estrutura Condicional Encadeada
     public static void main(String[] args) {
-        int nota = 7;
+            
+            int nota = 6;
 
-        if (nota >= 7)
+        
+            if (nota >= 7)
             System.out.println("Aprovado");
-
-        else if (nota >= 5 && nota < 7);
+        
+            else if (nota >= 5 && nota < 7);
             System.out.println("Recuperação");
 
-        else
+            else
             System.out.println("Reprovado");
     }
 }
